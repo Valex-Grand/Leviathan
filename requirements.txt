@@ -1,0 +1,4 @@
+# Leviathan Security Engine - Dependency List
+numba==0.58.1
+numpy>=1.22.0
+# Not: Diğer tüm kütüphaneler (os, sys, hashlib, mmap vb.) Python'un içinde yerleşiktir.
