@@ -29,7 +29,6 @@ Leviathan, klasik şifreleme yöntemlerinden farklı olarak **"Parçalı Depolam
 ---
 
 ### 📦 Kurulum ve Kullanım
-
 ```bash
 # Depoyu klonlayın
 git clone [https://github.com/Valex-Grand/Leviathan.git](https://github.com/Valex-Grand/Leviathan.git)
@@ -37,5 +36,8 @@ git clone [https://github.com/Valex-Grand/Leviathan.git](https://github.com/Vale
 # Proje dizinine gidin
 cd Leviathan
 
-# Derleyin
-cargo build --release
+# Gerekli kütüphaneleri kurun
+pip install -r requirements.txt
+
+# Çalıştırın
+python3 leviathan.py
